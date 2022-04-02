@@ -26,7 +26,7 @@ localStorage.setItem("emailX", "test@test.com"); // 由於翰林電子書會驗�
 > 最後測試成功：2022/4/2
 
 ### 康軒
-連結：[康軒網頁版電子書](https://digitalmaster.knsh.com.tw/ebook/index.html)  
+連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
 ```js
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
