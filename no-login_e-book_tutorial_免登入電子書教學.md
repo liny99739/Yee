@@ -23,7 +23,7 @@ localStorage.setItem("last_signinX", time); // 將帳號登入日期設定為現
 localStorage.setItem("roleX", "老師"); // 假冒身份為老師
 localStorage.setItem("emailX", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
-> 最後測試成功：2022/4/2
+> 最後測試成功：2022/4/6
 
 ### 康軒
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
@@ -53,7 +53,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試成功：2022/4/2
+> 最後測試成功：2022/4/6
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
