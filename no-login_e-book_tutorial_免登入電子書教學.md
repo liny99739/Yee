@@ -14,7 +14,7 @@
 
 ## 腳本
 
-### 翰林
+### 翰林 [有效]
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/home.html)  
 
 ```js
@@ -23,22 +23,22 @@ localStorage.setItem("last_signinX", time); // 將帳號登入日期設定為現
 localStorage.setItem("roleX", "老師"); // 假冒身份為老師
 localStorage.setItem("emailX", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
-> 最後測試成功：2022/4/6
+> 最後測試時間：2022/4/25
 
-### 康軒
+### 康軒 [有效]
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
 ```js
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```
-> 最後測試成功：2022/4/2
+> 最後測試時間：2022/4/25
 
-### 南一
+### 南一 [有效]
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
 ```js
 let mockToken = JSON.stringify({
     "code": "SUCCESS",
-    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9zaW9uZ3NuZyIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJzaW9uZ3NuZyIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJycnQ0Njc3NzhAZ21haWwuY29tIiwidWlkIjoiNGVlZDQzZTAtYzUwNi0xMWViLThhZWQtYjM0Y2EzZDExZTcwIiwianRpIjoiNmU3MGZjN2UtN2EzOC00ZWU2LTgxYWQtOTU2YzcyYzgxNGJkIiwiaWF0IjoxNjQ1NDQwMDQxLCJleHAiOjE2NTA2MjQwNDF9.9XUHfpcxWPxUl9PEUXcg-YQYGOHv16iyoVw-cbX9dyM"});
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9zaW9uZ3NuZyIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJzaW9uZ3NuZyIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJycnQ0Njc3NzhAZ21haWwuY29tIiwidWlkIjoiNGVlZDQzZTAtYzUwNi0xMWViLThhZWQtYjM0Y2EzZDExZTcwIiwianRpIjoiNGMxYzIxNGUtMzI1NC00YzIxLTllNmQtNmYyZTUzZDI5MTBiIiwiaWF0IjoxNjUwNzU4ODI3LCJleHAiOjE2NTU5NDI4Mjd9.5Uh93nPP1vpvLa50ZE2gNk31ANJvAKLl3KYRsdwXW1Y"});
 
 let fieldName = "nani_oneclass_login_token";
 var d = new Date();
@@ -53,7 +53,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試成功：2022/4/6
+> 最後測試時間：2022/4/25
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
