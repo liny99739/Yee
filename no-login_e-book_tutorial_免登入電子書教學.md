@@ -14,7 +14,7 @@
 
 ## 腳本
 
-### 翰林 [有效]
+### ✅ 翰林
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/home.html)  
 
 ```js
@@ -23,17 +23,17 @@ localStorage.setItem("last_signinX", time); // 將帳號登入日期設定為現
 localStorage.setItem("roleX", "老師"); // 假冒身份為老師
 localStorage.setItem("emailX", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
-> 最後測試時間：2022/5/24
+> 最後測試時間：2022/6/23
 
-### 康軒 [有效]
+### ✅ 康軒
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
 ```js
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```
-> 最後測試時間：2022/5/24
+> 最後測試時間：2022/6/23
 
-### 南一 [有效]
+### ✅ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
 ```js
 let mockToken = JSON.stringify({
