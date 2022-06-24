@@ -38,7 +38,7 @@ localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```js
 let mockToken = JSON.stringify({
     "code": "SUCCESS",
-    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9zaW9uZ3NuZyIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJzaW9uZ3NuZyIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJycnQ0Njc3NzhAZ21haWwuY29tIiwidWlkIjoiNGVlZDQzZTAtYzUwNi0xMWViLThhZWQtYjM0Y2EzZDExZTcwIiwianRpIjoiNGMxYzIxNGUtMzI1NC00YzIxLTllNmQtNmYyZTUzZDI5MTBiIiwiaWF0IjoxNjUwNzU4ODI3LCJleHAiOjE2NTU5NDI4Mjd9.5Uh93nPP1vpvLa50ZE2gNk31ANJvAKLl3KYRsdwXW1Y"});
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9zaW9uZ3NuZyIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJzaW9uZ3NuZyIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJycnQ0Njc3NzhAZ21haWwuY29tIiwidWlkIjoiNGVlZDQzZTAtYzUwNi0xMWViLThhZWQtYjM0Y2EzZDExZTcwIiwianRpIjoiMzNhYjMyOTQtYWMzMS00MTQwLTgxOGItYjA3ODFjZGQ1ZWNiIiwiaWF0IjoxNjU2MDQyMDU0LCJleHAiOjE2NjEyMjYwNTR9.wigkhjPStqVWe_iiWVpTn8DuqLNuUgJxstteAQBQm3M"});
 
 let fieldName = "nani_oneclass_login_token";
 var d = new Date();
@@ -53,7 +53,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試時間：2022/6/22
+> 最後測試時間：2022/6/24
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
