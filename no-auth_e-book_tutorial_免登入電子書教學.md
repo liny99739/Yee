@@ -14,14 +14,14 @@
 
 ## 腳本
 
-### ❌ 翰林
+### ✅ 翰林
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
 
 ```js
 let time = new Date().getTime().toString();
-localStorage.setItem("last_signinX", time); // 將帳號登入日期設定為現在，避免被判定為過期
-localStorage.setItem("roleX", "老師"); // 假冒身份為老師
-localStorage.setItem("emailX", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
+localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定為現在，避免被判定為過期
+localStorage.setItem("roleX_v2023", "老師"); // 假冒身份為老師
+localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
 > 最後測試時間：2022/8/29
 
