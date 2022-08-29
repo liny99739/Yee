@@ -14,8 +14,8 @@
 
 ## 腳本
 
-### ✅ 翰林
-連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/home.html)  
+### ❌ 翰林
+連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
 
 ```js
 let time = new Date().getTime().toString();
@@ -23,7 +23,7 @@ localStorage.setItem("last_signinX", time); // 將帳號登入日期設定為現
 localStorage.setItem("roleX", "老師"); // 假冒身份為老師
 localStorage.setItem("emailX", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
-> 最後測試時間：2022/6/23
+> 最後測試時間：2022/8/29
 
 ### ✅ 康軒
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
@@ -38,7 +38,7 @@ localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```js
 let mockToken = JSON.stringify({
     "code": "SUCCESS",
-    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9zaW9uZ3NuZyIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJzaW9uZ3NuZyIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJycnQ0Njc3NzhAZ21haWwuY29tIiwidWlkIjoiNGVlZDQzZTAtYzUwNi0xMWViLThhZWQtYjM0Y2EzZDExZTcwIiwianRpIjoiMzNhYjMyOTQtYWMzMS00MTQwLTgxOGItYjA3ODFjZGQ1ZWNiIiwiaWF0IjoxNjU2MDQyMDU0LCJleHAiOjE2NjEyMjYwNTR9.wigkhjPStqVWe_iiWVpTn8DuqLNuUgJxstteAQBQm3M"});
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9zaW9uZ3NuZyIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJzaW9uZ3NuZyIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJycnQ0Njc3NzhAZ21haWwuY29tIiwidWlkIjoiNGVlZDQzZTAtYzUwNi0xMWViLThhZWQtYjM0Y2EzZDExZTcwIiwianRpIjoiOTJkNDM4MTAtYjlhNi00YTY4LWJlZWMtOTk3ZjE0NGRhYTFmIiwiaWF0IjoxNjYxNzgzNzc3LCJleHAiOjE2NjY5Njc3Nzd9.EnisoE0KQrbYlIlTJc_4IUkVC7NiKObwaBaD7PZLFsQ"});
 
 let fieldName = "nani_oneclass_login_token";
 var d = new Date();
@@ -53,7 +53,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試時間：2022/6/24
+> 最後測試時間：2022/8/29
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
