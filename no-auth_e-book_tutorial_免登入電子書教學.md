@@ -63,5 +63,8 @@ localStorage.setItem("nani_tokenInfo", mockToken);
 ## 免責聲明
 此腳本僅用於技術用途，請勿拿去作為任何惡意用途，希望您是拿去學習/對答案，而不是抄答案，使用本腳本者，請自行承擔所有後果與風險。
 
-Made by [SiongSng](https://github.com/SiongSng)  
-由 [菘菘](https://github.com/SiongSng) 製作
+---
+
+Made by [SiongSng](https://github.com/SiongSng) | 由 [菘菘](https://github.com/SiongSng) 製作
+版權所有 © 2022 [菘菘](https://github.com/SiongSng)。 保留所有權利。
+Copyright © 2022 [SiongSng](https://github.com/SiongSng). All rights reserved.
