@@ -23,7 +23,7 @@ localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定
 localStorage.setItem("roleX_v2023", "老師"); // 假冒身份為老師
 localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
-> 最後測試時間：2022/8/29
+> 最後測試時間：2022/9/7
 
 ### ✅ 康軒
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
@@ -31,7 +31,7 @@ localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書�
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```
-> 最後測試時間：2022/6/23
+> 最後測試時間：2022/9/7
 
 ### ✅ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
@@ -61,7 +61,7 @@ localStorage.setItem("nani_tokenInfo", mockToken);
 - 南一版電子書因設計較為嚴謹，可能在未來此破解方法將無法使用，需尋找更好的解決方案。
 
 ## 免責聲明
-此腳本僅用於技術用途，請勿拿去作為任何惡意用途，希望您是拿去學習/對答案，而不是抄答案，使用本腳本者，請自行承擔所有後果與風險。
+此腳本僅用於技術用途，請勿拿去作為任何惡意用途，希望您是拿去學習/對答案，而不是抄答案或其他侵權等惡意用途，使用本腳本者，請**自行**承擔**所有**後果與風險。
 
 ---
 
