@@ -65,10 +65,10 @@ localStorage.setItem("nani_tokenInfo", mockToken);
 - 南一版電子書因設計較為嚴謹，可能在未來此破解方法將無法使用，需尋找更好的解決方案。
 
 ## 免責聲明
-此腳本僅用於技術用途，請勿拿去作為任何惡意用途，希望您是拿去學習/對答案，而不是抄答案或其他侵權等惡意用途，使用本腳本者，請**自行**承擔**所有**後果與風險。
+此腳本僅用於技術用途，請勿拿去作為抄答案或其他侵權等惡意用途，使用本腳本者，請**自行**承擔**所有**後果與風險。
 
 ---
 
-Made by [SiongSng](https://github.com/SiongSng) | 由 [菘菘](https://github.com/SiongSng) 製作  
+The script was made by [SiongSng](https://github.com/SiongSng) | 此腳本由 [菘菘](https://github.com/SiongSng) 製作  
 版權所有 © 2022 [菘菘](https://github.com/SiongSng)。 保留所有權利。  
 Copyright © 2022 [SiongSng](https://github.com/SiongSng). All rights reserved.
