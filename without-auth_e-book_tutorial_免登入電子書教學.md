@@ -1,3 +1,5 @@
+![Visits_Count](https://img.shields.io/badge/dynamic/json?label=Visits%20Count&query=value&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fbaa4f015258d0312f627b5659d93d72e%2Fvisits)
+
 # 教學用電子書免登入破解教學
 
 **使用前請務必閱讀 [免責聲明](https://gist.github.com/SiongSng/baa4f015258d0312f627b5659d93d72e#%E5%85%8D%E8%B2%AC%E8%81%B2%E6%98%8E)**
@@ -27,7 +29,7 @@ localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定
 localStorage.setItem("roleX_v2023", "老師"); // 假冒身份為老師
 localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
-> 最後測試時間：2022/9/7
+> 最後測試時間：2022/10/3
 
 ### ✅ 康軒
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
@@ -35,7 +37,7 @@ localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書�
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```
-> 最後測試時間：2022/9/7
+> 最後測試時間：2022/10/3
 
 ### ✅ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
@@ -57,7 +59,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試時間：2022/8/29
+> 最後測試時間：2022/10/3
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
