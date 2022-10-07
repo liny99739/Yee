@@ -39,7 +39,7 @@ localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```
 > 最後測試時間：2022/10/3
 
-### ✅ 南一
+### ❌ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
 ```js
 let mockToken = JSON.stringify({
@@ -59,7 +59,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試時間：2022/10/3
+> 最後測試時間：2022/10/7
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
