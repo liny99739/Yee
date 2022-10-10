@@ -39,12 +39,12 @@ localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```
 > 最後測試時間：2022/10/3
 
-### ❌ 南一
+### ✅ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
 ```js
 let mockToken = JSON.stringify({
     "code": "SUCCESS",
-    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9zaW9uZ3NuZyIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJzaW9uZ3NuZyIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJycnQ0Njc3NzhAZ21haWwuY29tIiwidWlkIjoiNGVlZDQzZTAtYzUwNi0xMWViLThhZWQtYjM0Y2EzZDExZTcwIiwianRpIjoiOTJkNDM4MTAtYjlhNi00YTY4LWJlZWMtOTk3ZjE0NGRhYTFmIiwiaWF0IjoxNjYxNzgzNzc3LCJleHAiOjE2NjY5Njc3Nzd9.EnisoE0KQrbYlIlTJc_4IUkVC7NiKObwaBaD7PZLFsQ"});
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9qYWNreWNoaXUwMTAxIiwiZnJvbSI6Ik5hbmkiLCJ1c2VybmFtZSI6ImphY2t5Y2hpdTAxMDEiLCJlbWFpbHZhbGlkIjp0cnVlLCJtb2JpbGV2YWxpZCI6ZmFsc2UsImVtYWlsIjoiamFja3ljaGl1MDEwMUBnbWFpbC5jb20iLCJ1aWQiOiJhZGY2MmYyMC1iMjY3LTExZWItOWE2OC1mZjU4MTI3MTY5ZDkiLCJqdGkiOiI1YmNmNjc5OC1iMzdlLTQ2OWQtOTEwMS04YTgwZjg3MTI5OTAiLCJpYXQiOjE2NjUzNzg3NTIsImV4cCI6MTY3MDU2Mjc1Mn0.dHEIVW6dUInCBnoQlghufltOhW0_Dm62J2LMGywoRzs"});
 
 let fieldName = "nani_oneclass_login_token";
 var d = new Date();
@@ -59,7 +59,8 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試時間：2022/10/7
+> 最後測試時間：2022/10/10
+> Token 由 @jackychiu0207 提供
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
