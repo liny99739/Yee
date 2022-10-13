@@ -44,7 +44,7 @@ localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```js
 let mockToken = JSON.stringify({
     "code": "SUCCESS",
-    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9qYWNreWNoaXUwMTAxIiwiZnJvbSI6Ik5hbmkiLCJ1c2VybmFtZSI6ImphY2t5Y2hpdTAxMDEiLCJlbWFpbHZhbGlkIjp0cnVlLCJtb2JpbGV2YWxpZCI6ZmFsc2UsImVtYWlsIjoiamFja3ljaGl1MDEwMUBnbWFpbC5jb20iLCJ1aWQiOiJhZGY2MmYyMC1iMjY3LTExZWItOWE2OC1mZjU4MTI3MTY5ZDkiLCJqdGkiOiI1YmNmNjc5OC1iMzdlLTQ2OWQtOTEwMS04YTgwZjg3MTI5OTAiLCJpYXQiOjE2NjUzNzg3NTIsImV4cCI6MTY3MDU2Mjc1Mn0.dHEIVW6dUInCBnoQlghufltOhW0_Dm62J2LMGywoRzs"});
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9qYWNreWNoaXUwMSIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJqYWNreWNoaXUwMSIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJraW5tYTE1OTg3NTMyQGdtYWlsLmNvbSIsInVpZCI6ImI1ZjE3MGYwLTI5ZmMtMTFlZC04NDJjLTQ5OTAxMGVhODI0MCIsImp0aSI6ImViNjRhNWIwLWY5YjAtNGE5YS1iY2RiLTNiMDI0YWU1OTc5MyIsImlhdCI6MTY2MjA0MDIyOSwiZXhwIjoxNjY3MjI0MjI5fQ.MIyIDOXdTuifKV664xBvASxEML4AoAMi_EHgCdqmTik"});
 
 let fieldName = "nani_oneclass_login_token";
 var d = new Date();
@@ -59,7 +59,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試時間：2022/10/10
+> 最後測試時間：2022/10/13
 > Token 由 @jackychiu0207 提供
 
 ## 限制
