@@ -29,7 +29,7 @@ localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定
 localStorage.setItem("roleX_v2023", "老師"); // 假冒身份為老師
 localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 ```
-> 最後測試時間：2022/10/3
+> 最後測試時間：2022/10/18
 
 ### ✅ 康軒
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
@@ -37,7 +37,7 @@ localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書�
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
 ```
-> 最後測試時間：2022/10/3
+> 最後測試時間：2022/10/18
 
 ### ✅ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
@@ -59,7 +59,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken);
 ```
-> 最後測試時間：2022/10/13  
+> 最後測試時間：2022/10/18  
 > Token 由 @jackychiu0207 提供
 
 ## 限制
