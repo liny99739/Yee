@@ -23,7 +23,7 @@
 
 ## 腳本
 
-### ✅ 翰林
+### ❌ 翰林
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
 
 ```js
