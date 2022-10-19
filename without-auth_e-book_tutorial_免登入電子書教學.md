@@ -57,7 +57,7 @@ localStorage.setItem("nani_tokenInfo", mockToken);
 ### ❌ 翰林
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
 
-## 翰林版本現已暫時停止支援，由於翰林改採用後端伺服器驗證身分驗證的 token，若要繞過可能需要透過其他的腳本形式。
+#### 翰林版本現已暫時停止支援，由於翰林改採用後端伺服器來驗證身分驗證的 token，若要繞過可能需要透過其他的腳本形式。
 
 ```js
 let time = new Date().getTime().toString();
