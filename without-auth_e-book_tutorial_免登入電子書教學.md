@@ -23,17 +23,6 @@
 
 ## 腳本
 
-### ❌ 翰林
-連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
-
-```js
-let time = new Date().getTime().toString();
-localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定為現在，避免被判定為過期
-localStorage.setItem("roleX_v2023", "老師"); // 假冒身份為老師
-localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
-```
-> 最後測試時間：2022/10/18
-
 ### ✅ 康軒
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
 ```js
@@ -64,6 +53,19 @@ localStorage.setItem("nani_tokenInfo", mockToken);
 ```
 > 最後測試時間：2022/10/18  
 > Token 由 @jackychiu0207 提供
+
+### ❌ 翰林
+連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
+
+## 翰林版本現已暫時停止支援，由於翰林改採用後端伺服器驗證身分驗證的 token，若要繞過可能需要透過其他的腳本形式。
+
+```js
+let time = new Date().getTime().toString();
+localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定為現在，避免被判定為過期
+localStorage.setItem("roleX_v2023", "老師"); // 假冒身份為老師
+localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
+```
+> 最後測試時間：2022/10/19
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
