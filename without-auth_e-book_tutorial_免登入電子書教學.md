@@ -27,7 +27,7 @@
 連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
 ```js
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
-localStorage.setItem("uuid", "mockUUID"); // 假的 UUID
+localStorage.setItem("uuid", "mockUUID"); // 設定假的 UUID
 ```
 > 最後測試時間：2022/10/18
 
@@ -49,23 +49,23 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
   document.cookie = fieldName + "=" + mockToken + ";" + expires + ";path=/";
 }
     
-localStorage.setItem("nani_tokenInfo", mockToken);
+localStorage.setItem("nani_tokenInfo", mockToken); // 設定身分驗證用的 toekn
 ```
 > 最後測試時間：2022/10/18  
-> Token 由 @jackychiu0207 提供
+> token 由 @jackychiu0207 提供
 
-### ❌ 翰林
+### ✅ 翰林
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
-
-#### 翰林版本現已暫時停止支援，由於翰林改採用後端伺服器來驗證身分驗證的 token，若要繞過可能需要透過其他的腳本形式。
 
 ```js
 let time = new Date().getTime().toString();
 localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定為現在，避免被判定為過期
-localStorage.setItem("roleX_v2023", "老師"); // 假冒身份為老師
+localStorage.setItem("roleX_v2023", "老師"); // 設定身份為老師
 localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
+localStorage.setItem("tokenX_v2023", "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzgwNWYxZGQ3ZmE5YTZiNTI3ZjQ0ZWNmZmJkNDhjIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2NjYyNTk4NzEsImV4cCI6MTY2ODkzODI3MSwiaXNzIjoiaHR0cHM6Ly9pZC5obGUuY29tLnR3IiwiYXVkIjpbImh0dHBzOi8vaWQuaGxlLmNvbS50dy9yZXNvdXJjZXMiLCJhcGkxIiwiSWRlbnRpdHlTZXJ2ZXJBcGkiLCJoYW5saW4tYXBpIl0sImNsaWVudF9pZCI6ImpzIiwic3ViIjoiZGJiYmEwNmEtNWNkNy00NTI5LWI2MjEtOTBlYjdhMGIxOWZlIiwiYXV0aF90aW1lIjoxNjY2MjU5ODcwLCJpZHAiOiJsb2NhbCIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiNURHN1ZSWVVWRUdUSjJVQ1czU0FDRkpBT1NHM0RONEIiLCJyb2xlIjpbIuiAgeW4qyIsIuiAgeW4qyJdLCJlbWFpbCI6WyJraW5tYTE1OTg3NTMyQGdtYWlsLmNvbSIsImtpbm1hMTU5ODc1MzJAZ21haWwuY29tIl0sImZhbWlseV9uYW1lIjoi576FIiwiZ2l2ZW5fbmFtZSI6IuWFg-iyniIsIm5hbWUiOiLnvoXlhYPosp4iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoi576F5YWD6LKeIiwidXNlcl9kb21haW4iOiJlZHUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSIsIklkZW50aXR5U2VydmVyQXBpIiwiaGFubGluLWFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.So0Fcvd-a_BlnQcgcmO7vXTxlCJ_AnIEPPwpoHHpqc2cP3fBCGrY496R1q4J9j2E9sYUahxeYu7M3RMhPS_79JiEq8EWcSUvNxJASwAgvmek_HxWS2sgPZbvFkCJ1zYXfqHpbUaRfeqNPZyB3Yno94OYU4nl5f0gRzwUf2kGiyM2XhTO5EQZUCXGDJfqNmBlnwL45MwlQ_l_sRSYFNllda37nTECse91Qe1DeYKCm1Z9s8MerCCnmJgpjNsKOPodvbz8ynUT7qbU2IDldb8z8h0mtI9DbW8tuG63c-Nqyr2ZHPXT5aIaWtYUUBgFrVakVW-nI0kv5cEYj8grUyuZFg") // 設定身分驗證用的 token
 ```
-> 最後測試時間：2022/10/19
+> 最後測試時間：2022/10/20
+> token 由 @jackychiu0207 提供
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
