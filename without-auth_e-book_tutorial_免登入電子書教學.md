@@ -51,7 +51,7 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken); // 設定身分驗證用的 toekn
 ```
-> 最後測試時間：2022/11/12  
+> 最後測試時間：2022/11/13  
 > token 由 @jackychiu0207 提供
 
 ### ✅ 翰林
