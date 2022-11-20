@@ -54,7 +54,7 @@ localStorage.setItem("nani_tokenInfo", mockToken); // 設定身分驗證用的 t
 > 最後測試時間：2022/11/13  
 > token 由 @jackychiu0207 提供
 
-### ✅ 翰林
+### ❌ 翰林
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
 
 ```js
