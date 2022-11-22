@@ -29,7 +29,7 @@
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 設定假的 UUID
 ```
-> 最後測試時間：2022/10/18
+> 最後測試時間：2022/11/22
 
 ### ✅ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
@@ -51,10 +51,10 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
     
 localStorage.setItem("nani_tokenInfo", mockToken); // 設定身分驗證用的 toekn
 ```
-> 最後測試時間：2022/11/13  
+> 最後測試時間：2022/11/22  
 > token 由 @jackychiu0207 提供
 
-### ❌ 翰林
+### ✅ 翰林
 連結：[翰林行動大師電子書](https://edisc3.hle.com.tw/edisc_v3/ebook_v2023.html)  
 
 ```js
@@ -62,9 +62,9 @@ let time = new Date().getTime().toString();
 localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定為現在，避免被判定為過期
 localStorage.setItem("roleX_v2023", "老師"); // 設定身份為老師
 localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
-localStorage.setItem("tokenX_v2023", "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzgwNWYxZGQ3ZmE5YTZiNTI3ZjQ0ZWNmZmJkNDhjIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2NjYyNTk4NzEsImV4cCI6MTY2ODkzODI3MSwiaXNzIjoiaHR0cHM6Ly9pZC5obGUuY29tLnR3IiwiYXVkIjpbImh0dHBzOi8vaWQuaGxlLmNvbS50dy9yZXNvdXJjZXMiLCJhcGkxIiwiSWRlbnRpdHlTZXJ2ZXJBcGkiLCJoYW5saW4tYXBpIl0sImNsaWVudF9pZCI6ImpzIiwic3ViIjoiZGJiYmEwNmEtNWNkNy00NTI5LWI2MjEtOTBlYjdhMGIxOWZlIiwiYXV0aF90aW1lIjoxNjY2MjU5ODcwLCJpZHAiOiJsb2NhbCIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiNURHN1ZSWVVWRUdUSjJVQ1czU0FDRkpBT1NHM0RONEIiLCJyb2xlIjpbIuiAgeW4qyIsIuiAgeW4qyJdLCJlbWFpbCI6WyJraW5tYTE1OTg3NTMyQGdtYWlsLmNvbSIsImtpbm1hMTU5ODc1MzJAZ21haWwuY29tIl0sImZhbWlseV9uYW1lIjoi576FIiwiZ2l2ZW5fbmFtZSI6IuWFg-iyniIsIm5hbWUiOiLnvoXlhYPosp4iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoi576F5YWD6LKeIiwidXNlcl9kb21haW4iOiJlZHUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSIsIklkZW50aXR5U2VydmVyQXBpIiwiaGFubGluLWFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.So0Fcvd-a_BlnQcgcmO7vXTxlCJ_AnIEPPwpoHHpqc2cP3fBCGrY496R1q4J9j2E9sYUahxeYu7M3RMhPS_79JiEq8EWcSUvNxJASwAgvmek_HxWS2sgPZbvFkCJ1zYXfqHpbUaRfeqNPZyB3Yno94OYU4nl5f0gRzwUf2kGiyM2XhTO5EQZUCXGDJfqNmBlnwL45MwlQ_l_sRSYFNllda37nTECse91Qe1DeYKCm1Z9s8MerCCnmJgpjNsKOPodvbz8ynUT7qbU2IDldb8z8h0mtI9DbW8tuG63c-Nqyr2ZHPXT5aIaWtYUUBgFrVakVW-nI0kv5cEYj8grUyuZFg") // 設定身分驗證用的 token
+localStorage.setItem("tokenX_v2023", "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzgwNWYxZGQ3ZmE5YTZiNTI3ZjQ0ZWNmZmJkNDhjIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2NjkwMjQyOTUsImV4cCI6MTY3MTcwMjY5NSwiaXNzIjoiaHR0cHM6Ly9pZC5obGUuY29tLnR3IiwiYXVkIjpbImh0dHBzOi8vaWQuaGxlLmNvbS50dy9yZXNvdXJjZXMiLCJhcGkxIiwiSWRlbnRpdHlTZXJ2ZXJBcGkiLCJoYW5saW4tYXBpIl0sImNsaWVudF9pZCI6ImpzIiwic3ViIjoiZGJiYmEwNmEtNWNkNy00NTI5LWI2MjEtOTBlYjdhMGIxOWZlIiwiYXV0aF90aW1lIjoxNjY5MDI0MjkxLCJpZHAiOiJsb2NhbCIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiNURHN1ZSWVVWRUdUSjJVQ1czU0FDRkpBT1NHM0RONEIiLCJyb2xlIjpbIuiAgeW4qyIsIuiAgeW4qyJdLCJlbWFpbCI6WyJraW5tYTE1OTg3NTMyQGdtYWlsLmNvbSIsImtpbm1hMTU5ODc1MzJAZ21haWwuY29tIl0sImZhbWlseV9uYW1lIjoi576FIiwiZ2l2ZW5fbmFtZSI6IuWFg-iyniIsIm5hbWUiOiLnvoXlhYPosp4iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoi576F5YWD6LKeIiwidXNlcl9kb21haW4iOiJlZHUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSIsIklkZW50aXR5U2VydmVyQXBpIiwiaGFubGluLWFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.fX6birbwdGyrT1iaIPRZ_g7-bIDt8pMNq-P-hIl0uDVHIvHp7cvVDFwFCUmn4JT1oRLXuULj3Grym1T3xkp68o3NzH2AoJ9_zFLjZNL8i3oWKTbsYqNHmCu2FP-sNM38eeJSv9A3Gpjbjt6MNAIh-5Ww1zVeURep7gHMs56oxLqo-957pbfMT7_2DWucPshS39S0o2FBq99jVmG1JI7czyoGUlv-Lqhiv6FRT6VKB1EI0nRhrhiNMGA9qwAX-FAs9O5vDqptFkaDy-Bz4Zgjymzo0jEDnjblKuSgqdzpx1zt8D09F73t5kmR57yN8iN_UNZOo1WKD9Qk2Knpnxibtw") // 設定身分驗證用的 token
 ```
-> 最後測試時間：2022/11/12  
+> 最後測試時間：2022/11/22  
 > token 由 @jackychiu0207 提供
 
 ## 限制
