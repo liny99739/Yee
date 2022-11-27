@@ -78,6 +78,7 @@ localStorage.setItem("isLogin", "true"); // 設定登入狀態為是 (true)
 ```js
 localStorage.setItem("uuid", "mock_user"); // 設定假的教師 UUID
 ```
+> 最後測試時間：2022/11/22
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
