@@ -70,12 +70,8 @@ localStorage.setItem("tokenX_v2023", "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzgwNWYxZG
 ### ✅ 何嘉仁
 連結：[何嘉仁電子書](https://bookonline.hess.com.tw/bookcase/)  
 
-請先打開上方的[連結](https://bookonline.hess.com.tw/bookcase/)，執行以下腳本
 ```js
 localStorage.setItem("isLogin", "true"); // 設定登入狀態為是 (true)
-```
-接著選好要使用的電子書後，進到電子書畫面，會看到提示文字「請先至書櫃進行登入動作」後，在此畫面執行以下腳本
-```js
 localStorage.setItem("uuid", "mock_user"); // 設定假的教師 UUID
 ```
 > 最後測試時間：2022/11/27
