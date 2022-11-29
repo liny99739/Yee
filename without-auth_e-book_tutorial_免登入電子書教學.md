@@ -24,12 +24,15 @@
 ## 腳本
 
 ### ✅ 康軒
-連結：[康軒網頁媒體盒](https://digitalmaster.knsh.com.tw/downloader/box-web/index.html)  
+連結：  
+[康軒網頁版電子書 (國民小學)](https://webetextbook.knsh.com.tw/2/index.html?code_degree=1&openExternalBrowser=1)  
+[康軒網頁版電子書 (國民小學/英語/閩南語/客家話)](https://webetextbook.knsh.com.tw/2/index.html?code_degree=3&openExternalBrowser=1)  
+[康軒網頁版電子書 (國民中學)](https://webetextbook.knsh.com.tw/2/index.html?code_degree=2&openExternalBrowser=1)  
 ```js
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 設定假的 UUID
 ```
-> 最後測試時間：2022/11/22
+> 最後測試時間：2022/11/29
 
 ### ✅ 南一
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
