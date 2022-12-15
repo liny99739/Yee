@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/dynamic/json?label=Visits%20Count&query=value&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fbaa4f015258d0312f627b5659d93d72e%2Fvisits&maxAge=1"></img>
 
-# 教學用電子書與相關工具免登入破解教學
+# 教學用電子書與相關工具免登入教學
 
 **使用前請務必閱讀 [免責聲明](https://gist.github.com/SiongSng/baa4f015258d0312f627b5659d93d72e#%E5%85%8D%E8%B2%AC%E8%81%B2%E6%98%8E)**
 
