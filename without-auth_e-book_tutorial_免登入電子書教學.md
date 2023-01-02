@@ -35,7 +35,7 @@ localStorage.setItem("uuid", "mockUUID"); // 設定假的 UUID
 ```
 > 最後測試時間：2022/12/14
 
-### ✅ 南一電子書
+### ❌ 南一電子書
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
 ```js
 let mockToken = JSON.stringify({
