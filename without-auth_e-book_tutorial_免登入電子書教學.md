@@ -114,5 +114,5 @@ sessionStorage.setItem(key, JSON.stringify(userInfo));
 ---
 
 The script was made by [SiongSng](https://github.com/SiongSng) | 此腳本由 [菘菘](https://github.com/SiongSng) 製作  
-版權所有 © 2022 [菘菘](https://github.com/SiongSng)。 保留所有權利。  
-Copyright © 2022 [SiongSng](https://github.com/SiongSng). All rights reserved.
+版權所有 © 2022-2023 [菘菘](https://github.com/SiongSng)。 保留所有權利。  
+Copyright © 2022-2023 [SiongSng](https://github.com/SiongSng). All rights reserved.
