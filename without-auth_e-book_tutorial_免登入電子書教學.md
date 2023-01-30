@@ -35,12 +35,12 @@ localStorage.setItem("uuid", "mockUUID"); // 設定假的 UUID
 ```
 > 最後測試時間：2022/12/14
 
-### ❌ 南一電子書
+### ✅ 南一電子書
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
 ```js
 let mockToken = JSON.stringify({
     "code": "SUCCESS",
-    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9qYWNreWNoaXUwMSIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJqYWNreWNoaXUwMSIsImVtYWlsdmFsaWQiOnRydWUsIm1vYmlsZXZhbGlkIjpmYWxzZSwiZW1haWwiOiJraW5tYTE1OTg3NTMyQGdtYWlsLmNvbSIsInVpZCI6ImI1ZjE3MGYwLTI5ZmMtMTFlZC04NDJjLTQ5OTAxMGVhODI0MCIsImp0aSI6IjliOGI5OTE1LWYyMGQtNGNlMS04ZmJjLTA0OWFhYjkzZTY4ZiIsImlhdCI6MTY2NzIzMTA2NiwiZXhwIjoxNjcyNDE1MDY2fQ.R9cjUUSocKL9CiPTa2Tf8zPNiZLSJLRqH9eQAniMsJw"});
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbXlhY2NvdW50Lm5hbmkuY29vbC8iLCJzdWIiOiJ1c2Vycy9qYWNreWNoaXUwMSIsImZyb20iOiJOYW5pIiwidXNlcm5hbWUiOiJqYWNreWNoaXUwMSIsImVtYWlsIjoia2lubWExNTk4NzUzMkBnbWFpbC5jb20iLCJ1aWQiOiJiNWYxNzBmMC0yOWZjLTExZWQtODQyYy00OTkwMTBlYTgyNDAiLCJlbWFpbHZhbGlkIjp0cnVlLCJtb2JpbGV2YWxpZCI6ZmFsc2UsImp0aSI6Ijk3Mjc0YWYyLWEwYTItNGE3YS1iZGYyLWM2MTRiMDEwOTRlNiIsImlhdCI6MTY3MzA2MDkxNSwiZXhwIjoxNjc4MjQ0OTE1fQ.tEDH9MBGOgTsMpLo1mG0WEc0RiTL54_w8UL1uxmZx28"});
 
 let fieldName = "nani_oneclass_login_token";
 var d = new Date();
