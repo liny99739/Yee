@@ -17,7 +17,7 @@
 
 ## 如何使用
 這邊示範翰林版的電子書如何使用，其他出版社以此類推
-首先先前往要使用的電子書或相關工具網站 (下方有連結)，接著在瀏覽器的開發者頁面 (F12) 中的主控台 (Console) 輸入以下腳本，最後重新載入網頁即可迴避登入。  
+首先先前往要使用的電子書或相關工具網站 (下方有連結)，接著在瀏覽器的開發者頁面 (F12) 中的主控台 (Console) 輸入以下腳本即可迴避登入。  
 > 這邊是以 Google Chrome 的環境作為示範，Firefox/Edge/Safari 大同小異。  
 
 ![image](https://user-images.githubusercontent.com/48402225/188836801-3688329c-fe73-4c1b-b762-ba0d7d4a50c4.png)
@@ -32,8 +32,9 @@
 ```js
 localStorage.setItem("loginAccount", "mockAccount"); // 設定一個假的帳號
 localStorage.setItem("uuid", "mockUUID"); // 設定假的 UUID
+location.reload(); // 重新載入網頁
 ```
-> 最後測試時間：2022/12/14
+> 最後測試時間：2023/2/1
 
 ### ✅ 南一電子書
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
@@ -54,8 +55,9 @@ if (hostname.indexOf("oneclass.com.tw") > 0) {
 }
     
 localStorage.setItem("nani_tokenInfo", mockToken); // 設定身分驗證用的 toekn
+location.reload(); // 重新載入網頁
 ```
-> 最後測試時間：2022/12/14  
+> 最後測試時間：2023/2/1  
 > token 由 @jackychiu0207 提供
 
 ### ✅ 翰林電子書
@@ -67,8 +69,9 @@ localStorage.setItem("last_signinX_v2023", time); // 將帳號登入日期設定
 localStorage.setItem("roleX_v2023", "老師"); // 設定身份為老師
 localStorage.setItem("emailX_v2023", "test@test.com"); // 由於翰林電子書會驗證是否有設定 email，如果有設定才能使用
 localStorage.setItem("tokenX_v2023", "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzgwNWYxZGQ3ZmE5YTZiNTI3ZjQ0ZWNmZmJkNDhjIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2NjkwMjQyOTUsImV4cCI6MTY3MTcwMjY5NSwiaXNzIjoiaHR0cHM6Ly9pZC5obGUuY29tLnR3IiwiYXVkIjpbImh0dHBzOi8vaWQuaGxlLmNvbS50dy9yZXNvdXJjZXMiLCJhcGkxIiwiSWRlbnRpdHlTZXJ2ZXJBcGkiLCJoYW5saW4tYXBpIl0sImNsaWVudF9pZCI6ImpzIiwic3ViIjoiZGJiYmEwNmEtNWNkNy00NTI5LWI2MjEtOTBlYjdhMGIxOWZlIiwiYXV0aF90aW1lIjoxNjY5MDI0MjkxLCJpZHAiOiJsb2NhbCIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiNURHN1ZSWVVWRUdUSjJVQ1czU0FDRkpBT1NHM0RONEIiLCJyb2xlIjpbIuiAgeW4qyIsIuiAgeW4qyJdLCJlbWFpbCI6WyJraW5tYTE1OTg3NTMyQGdtYWlsLmNvbSIsImtpbm1hMTU5ODc1MzJAZ21haWwuY29tIl0sImZhbWlseV9uYW1lIjoi576FIiwiZ2l2ZW5fbmFtZSI6IuWFg-iyniIsIm5hbWUiOiLnvoXlhYPosp4iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoi576F5YWD6LKeIiwidXNlcl9kb21haW4iOiJlZHUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSIsIklkZW50aXR5U2VydmVyQXBpIiwiaGFubGluLWFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.fX6birbwdGyrT1iaIPRZ_g7-bIDt8pMNq-P-hIl0uDVHIvHp7cvVDFwFCUmn4JT1oRLXuULj3Grym1T3xkp68o3NzH2AoJ9_zFLjZNL8i3oWKTbsYqNHmCu2FP-sNM38eeJSv9A3Gpjbjt6MNAIh-5Ww1zVeURep7gHMs56oxLqo-957pbfMT7_2DWucPshS39S0o2FBq99jVmG1JI7czyoGUlv-Lqhiv6FRT6VKB1EI0nRhrhiNMGA9qwAX-FAs9O5vDqptFkaDy-Bz4Zgjymzo0jEDnjblKuSgqdzpx1zt8D09F73t5kmR57yN8iN_UNZOo1WKD9Qk2Knpnxibtw"); // 設定身分驗證用的 token
+location.reload(); // 重新載入網頁
 ```
-> 最後測試時間：2022/11/22  
+> 最後測試時間：2023/2/1  
 > token 由 @jackychiu0207 提供
 
 ### ✅ 何嘉仁電子書
@@ -77,8 +80,9 @@ localStorage.setItem("tokenX_v2023", "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzgwNWYxZG
 ```js
 localStorage.setItem("isLogin", "true"); // 設定登入狀態為是 (true)
 localStorage.setItem("uuid", "mock_user"); // 設定假的教師 UUID
+location.reload(); // 重新載入網頁
 ```
-> 最後測試時間：2022/12/14
+> 最後測試時間：2023/2/1
 
 ### ✅ 翰林雲端命題大師
 連結：[翰林雲端命題大師](https://testbank.hle.com.tw/)  
@@ -103,8 +107,9 @@ let userInfo = {
 };
 let key = `oidc.user:https://id.hle.com.tw/:js`;
 sessionStorage.setItem(key, JSON.stringify(userInfo));
+location.reload(); // 重新載入網頁
 ```
-> 最後測試時間：2022/12/14
+> 最後測試時間：2023/2/1
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
