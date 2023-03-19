@@ -36,7 +36,7 @@ location.reload(); // 重新載入網頁
 ```
 > 最後測試時間：2023/2/1
 
-### ✅ 南一電子書
+### ❌ 南一電子書
 連結：[OneBook 南一電子書](https://reader.oneclass.com.tw/bookshelf)  
 ```js
 let mockToken = JSON.stringify({
