@@ -93,19 +93,19 @@ var d = new Date();
 d.setTime(d.getTime() + (1 * 24 * 60 * 60 * 1000));
 
 let userInfo = {
-  id_token: 'mock_id_token',
-  session_state: 'test',
-  access_token: 'eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NzgwNWYxZGQ3ZmE5YTZiNTI3ZjQ0ZWNmZmJkNDhjIiwidHlwIjoiSldUIn0.eyJuYmYiOjE2NjkwMjQyOTUsImV4cCI6MTY3MTcwMjY5NSwiaXNzIjoiaHR0cHM6Ly9pZC5obGUuY29tLnR3IiwiYXVkIjpbImh0dHBzOi8vaWQuaGxlLmNvbS50dy9yZXNvdXJjZXMiLCJhcGkxIiwiSWRlbnRpdHlTZXJ2ZXJBcGkiLCJoYW5saW4tYXBpIl0sImNsaWVudF9pZCI6ImpzIiwic3ViIjoiZGJiYmEwNmEtNWNkNy00NTI5LWI2MjEtOTBlYjdhMGIxOWZlIiwiYXV0aF90aW1lIjoxNjY5MDI0MjkxLCJpZHAiOiJsb2NhbCIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiNURHN1ZSWVVWRUdUSjJVQ1czU0FDRkpBT1NHM0RONEIiLCJyb2xlIjpbIuiAgeW4qyIsIuiAgeW4qyJdLCJlbWFpbCI6WyJraW5tYTE1OTg3NTMyQGdtYWlsLmNvbSIsImtpbm1hMTU5ODc1MzJAZ21haWwuY29tIl0sImZhbWlseV9uYW1lIjoi576FIiwiZ2l2ZW5fbmFtZSI6IuWFg-iyniIsIm5hbWUiOiLnvoXlhYPosp4iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoi576F5YWD6LKeIiwidXNlcl9kb21haW4iOiJlZHUiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSIsIklkZW50aXR5U2VydmVyQXBpIiwiaGFubGluLWFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJwd2QiXX0.fX6birbwdGyrT1iaIPRZ_g7-bIDt8pMNq-P-hIl0uDVHIvHp7cvVDFwFCUmn4JT1oRLXuULj3Grym1T3xkp68o3NzH2AoJ9_zFLjZNL8i3oWKTbsYqNHmCu2FP-sNM38eeJSv9A3Gpjbjt6MNAIh-5Ww1zVeURep7gHMs56oxLqo-957pbfMT7_2DWucPshS39S0o2FBq99jVmG1JI7czyoGUlv-Lqhiv6FRT6VKB1EI0nRhrhiNMGA9qwAX-FAs9O5vDqptFkaDy-Bz4Zgjymzo0jEDnjblKuSgqdzpx1zt8D09F73t5kmR57yN8iN_UNZOo1WKD9Qk2Knpnxibtw',
-  refresh_token: 'test',
-  token_type: 'bearer',
-  scope: 'test',
-  profile: {
-    role: ['老師'],
-    sub: 'mock_user_id',
-    email: 'user@mock.com'
-  },
-  expires_at: d.getTime()
-};
+    "token_type": "Bearer",
+    "scope": "openid profile",
+    "profile": {
+        "sub": "mock_user_id",
+        "email": "user@mock.com",
+        "role": "老師",
+        "email_verified": true,
+        "preferred_username": "mock_user_id",
+        "user_domain": "edu",
+        "amr": ["pwd"]
+    },
+    "expires_at": d.getTime(),
+}
 let key = `oidc.user:https://id.hle.com.tw/:js`;
 sessionStorage.setItem(key, JSON.stringify(userInfo));
 location.reload(); // 重新載入網頁
