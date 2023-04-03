@@ -110,7 +110,7 @@ let key = `oidc.user:https://id.hle.com.tw/:js`;
 sessionStorage.setItem(key, JSON.stringify(userInfo));
 location.reload(); // 重新載入網頁
 ```
-> 最後測試時間：2023/2/1
+> 最後測試時間：2023/4/3
 
 ## 限制
 - 因為此腳本僅繞過前端的身份驗證，因此可能會導致無法使用儲存班級紀錄、測驗等功能。  
